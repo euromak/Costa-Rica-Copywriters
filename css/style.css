@@ -112,8 +112,9 @@ hr {
 }
 
 /*PRICE*/
-.price {
-	height: 1000px;
+.price { 
+	height: auto;
+    padding: 30px 0;
 
 }
 
@@ -232,7 +233,7 @@ hr {
 /*PRICE STYLE*/
 .pricingTable{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .pricingTable .pricingTable-header{
     padding: 30px 0;
@@ -372,11 +373,16 @@ hr {
     .pricingTable{ margin-bottom: 25px; }
 }
 
+.pricewrap h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 30px;
+}
 .fa-hand-point-right {
 	color: #cb1018;
 }
 .pricewrap {
-	height: 800px;	
+	height: auto;	
 	background-image: url(../images/kopir.jpg);
 	background-size: cover;
 }
