@@ -413,3 +413,7 @@ hr {
     -webkit-transform: translateZ(-1px);
     transform: translateZ(-1px);
   }
+  /*CONTACTS*/
+  .contacts {
+    height: 800px;
+  }
